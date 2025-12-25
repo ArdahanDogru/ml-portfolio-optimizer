@@ -4,10 +4,10 @@
 A Python-based portfolio optimization tool that constructs efficient portfolios using Modern Portfolio Theory. Compares multiple optimization strategies against market benchmarks.
 
 ## Key Features
-- Multiple optimization methods (Min Variance, Max Sharpe, Risk Parity)
-- Comprehensive risk metrics (Sharpe, CAGR, Max Drawdown, Calmar)
+- Optimization methods (Min Variance, Max Sharpe, Risk Parity)
+- Risk metrics (Sharpe, CAGR, Max Drawdown, Calmar)
 - Efficient frontier visualization
-- Benchmark comparison vs S&P 500 and Nasdaq
+- Benchmark comparison vs ETFs and ETF-based portfolios
 - Backtesting on out-of-sample data
 
 ## Results Snapshot
