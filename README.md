@@ -187,10 +187,6 @@ jupyter==1.0.0
 - [ ] Real-time data integration
 - [ ] Interactive Plotly dashboards
 
-## License
-
-MIT License - feel free to use for educational purposes
-
 ## Author
 
 **Yusuf Ardahan Dogru**  
