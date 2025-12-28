@@ -191,7 +191,7 @@ jupyter==1.0.0
 
 **Yusuf Ardahan Dogru**  
 Data Science Graduate Student | University of Texas at Dallas  
-[LinkedIn](https://www.linkedin.com/in/ardahandogru/) | [GitHub](https://github.com/yourusername)
+[LinkedIn](https://www.linkedin.com/in/ardahandogru/) | [GitHub](https://github.com/ArdahanDogru)
 
 ---
 
