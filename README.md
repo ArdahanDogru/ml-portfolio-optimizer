@@ -44,48 +44,6 @@ Python-based system that uses ensemble machine learning (XGBoost, Random Forest)
 **Visualization:** Matplotlib | Seaborn  
 **Data:** yfinance API
 
-## Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-
-### Setup
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/ml-portfolio-optimizer.git
-cd ml-portfolio-optimizer
-```
-
-2. **Create virtual environment** (recommended)
-```bash
-# macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-
-# Windows
-python -m venv venv
-venv\Scripts\activate
-```
-
-3. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-### Run Analysis
-
-1. **Launch Jupyter Notebook**
-```bash
-jupyter notebook
-```
-
-2. **Open** `Portfolio_Analyzer.ipynb`
-
-3. **Run all cells** (Cell → Run All)
 
 ### Expected Outputs
 
@@ -96,43 +54,6 @@ jupyter notebook
 - Growth of $1,000 investment chart
 - 60-day rolling volatility
 - ML model performance (ROC-AUC, confusion matrix, feature importance)
-
-## Customization
-
-### Change Assets
-```python
-tickers = ['YOUR', 'CUSTOM', 'TICKERS']
-```
-
-### Adjust Time Period
-```python
-start_date = '2020-01-01'
-end_date = '2024-12-01'
-```
-
-### Modify Risk-Free Rate
-```python
-RISK_FREE_RATE = 0.045  # 4.5% annual
-```
-
-### ML Model Parameters
-```python
-xgb_model = XGBClassifier(
-    n_estimators=100,
-    max_depth=5,
-    learning_rate=0.1
-)
-```
-
-## Project Structure
-```
-ml-portfolio-optimizer/
-│
-├── Portfolio_Analyzer.ipynb    # Main analysis notebook
-├── README.md                    # This file
-├── requirements.txt             # Python dependencies
-└── .gitignore                   # Git ignore file
-```
 
 ## Methodology
 
@@ -149,34 +70,6 @@ ml-portfolio-optimizer/
 5. **Evaluation** - ROC-AUC, confusion matrix, feature importance
 6. **Portfolio Construction** - Weight assets by prediction confidence
 
-## Troubleshooting
-
-**Error: "No module named 'yfinance'"**
-```bash
-pip install -r requirements.txt
-```
-
-**Error: "Failed to download data"**
-- Check internet connection
-- Verify ticker symbols are valid
-- Some tickers may be delisted
-
-**Empty plots**
-- Add to first cell: `%matplotlib inline`
-- Restart kernel: Kernel → Restart & Run All
-
-## Requirements
-```txt
-yfinance==0.2.32
-pandas==2.1.3
-numpy==1.26.2
-matplotlib==3.8.2
-seaborn==0.13.0
-scipy==1.11.4
-scikit-learn==1.3.2
-xgboost==2.0.3
-jupyter==1.0.0
-```
 
 ## Future Enhancements
 
