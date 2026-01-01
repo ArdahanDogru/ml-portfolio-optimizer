@@ -5,6 +5,7 @@ Portfolio optimization combining Modern Portfolio Theory with machine learning f
 ## Overview
 
 Python-based system that uses ensemble machine learning (XGBoost, Random Forest) alongside traditional optimization methods to construct efficient portfolios. Analyzes multi-asset portfolios across sectors with comprehensive risk-return metrics.
+Why XGBoost? Small and tabular dataset, ability to handle non-linear relationships between technical indicators, good efficiency with limited data, good performance without feature engineering, ability to handle momentum + volatility combinations...
 
 ## Key Features
 
